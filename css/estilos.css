@@ -1,0 +1,662 @@
+/*estilo para el body---BEGIN:*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: gray;}
+
+
+header{header
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section a{margin-left: 0px;
+}
+
+section a img.logo{
+width: 20px;
+height: 20px;
+}
+.back {
+  padding: 1px 0;
+background-color: darkgray;
+height: 10%;
+
+}
+
+.menu.container {
+  max-width: 100%; /* Ajusta el tamaño del encabezado */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+
+}
+
+.logo {
+  font-size: 24px;
+  color: cyan;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 20px;
+  text-decoration: none; /* Quita el subrayado del logo */
+}
+nav {
+  width: 100%;
+  background-color: blue;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0;
+
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+/*carusel*/
+
+
+.carousel-example {
+  width: 40%;
+}
+
+.carousel-inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*seccion servicios*/
+.containeruno0 {
+  background-color: black;
+  padding: 1.25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo-ofrecemos {
+  background-color: beige;
+  border: 0.125em double gray;
+  padding: 0.625rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5vw;
+  transition: transform 0.4s;
+}
+
+.titulo-ofrecemos:hover {
+  transform: scale(1.2);
+}
+
+.containeruno0 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.containeruno0 li {
+  background-color: beige;
+  border: 0.125em solid purple;
+  border-radius: 1.25em;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.875vw;
+  transition: transform 0.4s, font-size 0.4s;
+}
+
+.containeruno0 li:hover {
+  transform: scale(1.2);
+  font-size: 1.25vw;
+}
+
+.formul {
+  color: lightgray;
+  border: 0.1875em solid blue;
+  border-radius: 1.25em;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  font-size: 2vw;
+  margin-bottom: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.link {
+  color: lightgray;
+  font-size: 2.25vw;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  background-color: lightblue;
+  transition: transform 0.4s, background-color 0.4s;
+}
+
+.containeruno0 li a {
+  color: inherit;
+  text-decoration: none;
+}
+/*fin servicos*/
+
+/*empieza insumos*/
+div.containeruno {
+  background-color: lightgray;
+}
+
+.containeruno {
+  text-align: center;
+  padding: 2.5%;
+}
+
+.containeruno {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carduno {
+  flex: 0 0 20%;
+  max-width: 20%;
+  margin: 1.25%;
+  text-align: center;
+  border: 0.125em solid black;
+}
+
+.card-img-top {
+  border: 0.25em double blue;
+  border-radius: 1.25em;
+}
+
+.card-body {
+  border: 0.125em solid darkgray;
+  border-radius: 1.25em;
+  padding: 0.625%;
+}
+
+.card-title,
+.card-text,
+.btn {
+  border: 0.125em solid darkgray;
+  border-radius: 1.25em;
+  padding: 0.3125%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .carduno {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+h3,
+h4,
+h6 {
+  background-color: white;
+  padding: 0.625%;
+  border: 0.0625em solid #ddd;
+  border-radius: 0.3125em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2vw;
+  margin-bottom: 2.5%;
+}
+
+/*termina insumos*/
+
+
+/*empieza euipos*/
+
+div.containerdos {
+  background-color: darkgray;
+}
+
+.containerdos {
+  text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h10,
+h11,
+h12,
+.formmarca {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1vw;
+  color: grey;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.625rem;
+  background-color: lightblue;
+  transition: transform 0.4s;
+}
+
+.formmarca a {
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.4s, transform 0.4s;
+}
+
+.formmarca a:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+
+.btn-primary {
+  border: 0.125em solid blue;
+  padding: 0.625%;
+  transition: transform 0.4s, background-color 0.4s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+  background-color: lightblue;
+}
+
+.carduno {
+  flex: 0 0 20%;
+  max-width: 20%;
+  margin: 1.25%;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 0.625%;
+}
+
+.card-title,
+.card-text,
+.btn {
+  border: 0.125em solid darkgray;
+  border-radius: 1.25em;
+  padding: 0.3125%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .carduno {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/*termina equipos*/
+footer {width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+  background-color: black;
+  color: grey;
+  text-align: center;
+  padding: 1.25% 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625% 0;
+}
+
+.left-section {
+  flex: 1;
+  text-align: left;
+}
+
+.left-section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2vw;
+  color: grey;
+}
+
+.center-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-section iframe {
+  width: 80%;
+  height: auto;
+}
+
+.right-section {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+.right-section .whatsapp-link img {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  background-color: #25D366;
+  text-align: center;
+  padding: 1.5%;
+  box-shadow: 0 0.625% 1.5625% rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+.footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  color: grey;
+}
+
+.left-section p {
+  border-radius: 50%;
+  background-color: blue;
+  padding: 0.625%;
+  text-align: center;
+}
+/*termina footer*/
+
+
+
+
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+
+
+  .container {
+    width: 90%;
+  }
+
+  .carousel-example {
+    width: 80%;
+  }
+
+  .carousel-inner {
+    width: 60%;
+  }
+
+
+  nav ul li {
+    font-size: 2vw;
+    padding: 1.25%;
+  }
+
+  .centrar {
+    font-size: 1.875vw;
+  }
+
+
+
+  .titulo-ofrecemos {
+    font-size: 1.875vw;
+    padding: 1.25rem;
+  }
+
+  .containeruno0 li {
+    font-size: 1.5vw;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .formul {
+    font-size: 1.6vw;
+    padding: 1.25rem;
+    margin-bottom: 2.5%;
+  }
+
+  .link {
+    font-size: 1.8vw;
+  }
+
+  h3,
+  h4,
+  h6 {
+    font-size: 1.2vw;
+    margin-bottom: 1.875%;
+    padding: 0.3125%;
+  }
+
+  h10,
+  h11,
+  h12,
+  .formmarca {
+    font-size: 1.1vw;
+    padding: 0.625rem;
+  }
+
+  .formmarca a {
+    font-size: 1.1vw;
+  }
+
+  .btn-primary {
+    padding: 0.625%;
+  }
+}
+
+
+
+
+
+  .titulo-ofrecemos {
+    font-size: 2.1875vw;
+    padding: 1.5625rem;
+  }
+
+  .containeruno0 li {
+    font-size: 2.1875vw;
+    padding: 1.5625rem;
+    margin-bottom: 1.5625rem;
+  }
+
+  .formul {
+    font-size: 2.5vw;
+    padding: 1.5625rem;
+    margin-bottom: 3.125%;
+  }
+
+  .link {
+    font-size: 2.8125vw;
+  }
+
+  h3,
+  h4,
+  h6 {
+    font-size: 1.875vw;
+    margin-bottom: 2.5%;
+    padding: 0.625%;
+  }
+
+  h10,
+  h11,
+  h12,
+  .formmarca {
+    font-size: 1.5625vw;
+    padding: 0.625rem;
+  }
+
+  .formmarca a {
+    font-size: 1.5625vw;
+  }
+
+  .btn-primary {
+    padding: 0.625%;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+
+  nav ul li {
+    font-size: 2.5vw;
+    padding: 2.5%;
+  }
+
+
+
+
+  .titulo-ofrecemos {
+    font-size: 3.75vw;
+    padding: 2.5rem;
+  }
+
+  .containeruno0 li {
+    font-size: 3.125vw;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .formul {
+    font-size: 3.75vw;
+    padding: 2.5rem;
+    margin-bottom: 5%;
+  }
+
+  .link {
+    font-size: 3.75vw;
+  }
+
+  h3,
+  h4,
+  h6 {
+    font-size: 2.5vw;
+    margin-bottom: 3.125%;
+    padding: 0.625%;
+  }
+
+  h10,
+  h11,
+  h12,
+  .formmarca {
+    font-size: 2.5vw;
+    padding: 0.625rem;
+  }
+
+  .formmarca a {
+    font-size: 2.5vw;
+  }
+
+  .btn-primary {
+    padding: 0.625%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-example {
+    width: 100%;
+  }
+
+  .carousel-inner {
+    width: 100%;
+  }
+
+
+  nav ul li {
+    font-size: 3.75vw;
+    padding: 3.75%;
+  }
+
+
+  .titulo-ofrecemos {
+    font-size: 5vw;
+    padding: 3.125rem;
+  }
+
+  .containeruno0 li {
+    font-size: 4.375vw;
+    padding: 3.125rem;
+    margin-bottom: 3.125rem;
+  }
+
+  .formul {
+    font-size: 5vw;
+    padding: 3.125rem;
+    margin-bottom: 6.25%;
+  }
+
+  .link {
+    font-size: 5vw;
+  }
+
+  h3,
+  h4,
+  h6 {
+    font-size: 3.75vw;
+    margin-bottom: 3.125%;
+    padding: 0.625%;
+  }
+
+  h10,
+  h11,
+  h12,
+  .formmarca {
+    font-size: 3.125vw;
+    padding: 0.625rem;
+  }
+
+  .formmarca a {
+    font-size: 3.125vw;
+  }
+
+  .btn-primary {
+    padding: 0.625%;
+  }
+}
